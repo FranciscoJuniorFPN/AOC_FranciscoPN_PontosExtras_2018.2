@@ -11,7 +11,7 @@ main:
 jal FIB                            # Calling the fibonacci function
     
     
-    move $a0,$v0                   # Display fibonacci
+    move $a0,$v0                   # Display fibonacci 
     li $v0,1
     syscall
 
