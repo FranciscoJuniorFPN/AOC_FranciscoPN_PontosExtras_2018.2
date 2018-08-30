@@ -22,12 +22,12 @@ jal FIB                            # Calling the fibonacci function
 
 #Function Fibonacci################
 FIB:    bne $a0,1,salto         # if (n != 1)
-            li $a0, 0
+            li $v0,0
             jr $ra
         salto:
 
         bne $a0,2,salto2        # if (n != 2)
-            li $a0,1
+            li $v0,1
          jr $ra
         salto2:
     
